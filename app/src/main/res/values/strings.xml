@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">El tiempo</string>
+
+    <!-- Tabs -->
+    <string name="tab_temperature">Temperatura</string>
+    <string name="tab_precip">Precipitaciones</string>
+    <string name="tab_wind">Viento</string>
+
+    <!-- Day pills -->
+    <string name="day_today">Hoy</string>
+    <string name="day_tomorrow">Mañana</string>
+
+    <!-- Top bar / search -->
+    <string name="title_choose_zone">Elegir zona</string>
+    <string name="action_refresh">Actualizar</string>
+    <string name="action_favorite">Favorito</string>
+    <string name="search_placeholder">Buscar municipio…</string>
+    <string name="search_placeholder_current">Buscar… (actual: %1$s)</string>
+    <string name="search_section_favorites">Favoritos</string>
+    <string name="search_section_all">Todos los municipios</string>
+
+    <!-- Summary -->
+    <string name="summary_label_temp">Temperatura</string>
+    <string name="summary_label_precip">Precipitaciones</string>
+    <string name="summary_label_humidity">Humedad</string>
+    <string name="summary_label_wind">Viento</string>
+    <string name="summary_section_title">Tiempo</string>
+
+    <!-- Warnings / footer -->
+    <string name="warn_stale">AEMET no responde · datos en caché</string>
+    <string name="warn_stale_no_now">no incluye la hora actual</string>
+    <string name="warn_no_today">El pronóstico en caché no incluye la hora actual (probablemente anterior a las 00:00 de hoy). Pulsa ↻ para refrescar.</string>
+    <string name="status_loading">Cargando…</string>
+    <string name="footer_source">Fuente: AEMET OpenData</string>
+
+    <!-- Errors -->
+    <string name="error_municipio_id_format">El municipioId debe tener 5 dígitos (ej: 29067).</string>
+    <string name="error_refresh_prefix">No se pudo refrescar: %1$s</string>
+</resources>
+

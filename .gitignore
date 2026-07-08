@@ -1,0 +1,10 @@
+# Environment variables
+.env
+
+# Local configuration
+keystore.properties
+local.properties
+
+# Build outputs
+app/build/
+build/

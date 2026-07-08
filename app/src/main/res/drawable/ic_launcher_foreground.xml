@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Sun rays — warm amber, centred on the sun disc at (54, 38). -->
+    <group
+        android:translateX="54"
+        android:translateY="38">
+        <path
+            android:pathData="M0,-26 L0,-38 M-26,0 L-38,0 M26,0 L38,0 M0,26 L0,38 M-18,-18 L-27,-27 M18,-18 L27,-27 M-18,18 L-27,27 M18,18 L27,27"
+            android:strokeColor="#FFC93C"
+            android:strokeWidth="5"
+            android:strokeLineCap="round" />
+    </group>
+    <!-- Sun disc — saturated yellow. -->
+    <path
+        android:pathData="M54,38 m-20,0 a20,20 0 1,0 40,0 a20,20 0 1,0 -40,0"
+        android:fillColor="#FFC93C" />
+    <!-- Cloud — overlaps the lower-right of the sun for a "sun behind cloud" look. -->
+    <path
+        android:pathData="M30,74 a14,14 0 0,1 14,-14 a16,16 0 0,1 16,-10 a16,16 0 0,1 16,10 a14,14 0 0,1 4,27.5 L34,88 a14,14 0 0,1 -4,-14 z"
+        android:fillColor="#FFFFFF" />
+</vector>
