@@ -8,3 +8,6 @@ local.properties
 # Build outputs
 app/build/
 build/
+
+# Gradle distribution (should not be committed)
+gradle-dist/
