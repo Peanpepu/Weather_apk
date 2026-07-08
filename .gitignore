@@ -5,9 +5,31 @@
 keystore.properties
 local.properties
 
+# Signing keys
+*.jks
+*.keystore
+
 # Build outputs
 app/build/
 build/
 
 # Gradle distribution (should not be committed)
 gradle-dist/
+
+# Gradle cache
+.gradle/
+.kotlin/
+
+# IDE files
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Android Studio
+.externalNativeBuild/
+.cxx/
+capture/
+
+# Log files
+*.log
