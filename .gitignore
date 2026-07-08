@@ -33,3 +33,21 @@ capture/
 
 # Log files
 *.log
+
+# Gradle cache
+.gradle/
+.kotlin/
+
+# IDE files
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Android Studio
+.externalNativeBuild/
+.cxx/
+capture/
+
+# Log files
+*.log
